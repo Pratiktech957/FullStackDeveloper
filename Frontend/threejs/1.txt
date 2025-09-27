@@ -1,0 +1,128 @@
+🏆 Top 50 Three.js Concepts (Cheat-Sheet Style)
+🟢 Basics (foundation)
+
+Scene – 3D duniya
+
+Camera (Perspective, Orthographic)
+
+Renderer (WebGLRenderer)
+
+Geometry (Cube, Sphere, Plane, Torus, etc.)
+
+Material (Basic, Standard, Phong, Lambert)
+
+Mesh = Geometry + Material
+
+Colors
+
+Animation Loop (requestAnimationFrame)
+
+AxesHelper / GridHelper (samajhne ke liye)
+
+Units & Coordinates (X, Y, Z axes)
+
+🟡 Materials & Textures
+
+MeshBasicMaterial – light ignore karta hai
+
+MeshLambertMaterial – soft light
+
+MeshPhongMaterial – shiny surfaces
+
+MeshStandardMaterial – realistic PBR material
+
+Normal Map – surface details
+
+Bump Map – uchaai ka illusion
+
+Displacement Map – geometry modify
+
+Roughness & Metalness – realistic look
+
+Transparent / Opacity – glass, ghost effect
+
+Texture Mapping – images on objects
+
+🔵 Lights
+
+AmbientLight – har jagah halka light
+
+DirectionalLight – suraj jaisa
+
+PointLight – bulb jaisa
+
+SpotLight – torch jaisa
+
+HemisphereLight – sky/ground light
+
+RectAreaLight – area lights (window glow)
+
+Light Helpers (position samajhne ke liye)
+
+Shadow Casting – shadow setup
+
+Soft Shadows – shadow blur
+
+Multiple Lights – mix lighting
+
+🟣 Geometry Tricks
+
+BufferGeometry – performance ke liye
+
+Custom Geometry – apne vertices define karna
+
+ShapeGeometry – 2D shape se 3D banाना
+
+ExtrudeGeometry – 2D ko thickness dena
+
+LatheGeometry – ghuma ke shape banana
+
+TubeGeometry – pipe banाना
+
+TextGeometry – 3D text
+
+InstancedMesh – thousands of same objects
+
+Merge Geometries – combine karna
+
+Wireframe Mode
+
+🔴 Scene Features
+
+Groups – objects ko ek saath move karna
+
+Fog – dhundh effect
+
+Background (color, texture, skybox)
+
+Environment Map – reflection/refraction
+
+Multiple Scenes
+
+Multiple Cameras
+
+Layers – alag-alag objects group
+
+Clipping Planes – object cut view
+
+GridHelper – ground grid
+
+AxesHelper – orientation samajhna
+
+⚡ Bonus Advanced (extra but useful later)
+
+Raycasting (mouse click detect)
+
+Controls (OrbitControls, PointerLockControls)
+
+Loaders (GLTFLoader, TextureLoader)
+
+Post-processing (Bloom, DOF, Glow)
+
+Particles (rain, fire, smoke)
+
+Physics (Cannon.js, Ammo.js)
+
+Shaders (GLSL custom materials)
+
+Performance Optimization (LOD, Frustum culling)
