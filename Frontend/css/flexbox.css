@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* body ko full screen height de do */
+}
+
+#parent {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(217, 0, 0);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-wrap: wrap;
+   flex-shrink: 1
+
+    /* align item property used for y-axis  */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+#child1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    
+
+}
+
+#child2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 4);
+    border: 2px solid black;
+
+
+}
+
+#child3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(25, 13, 168);
+    border: 2px solid black;
+
+
+}
+
+#child4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 217, 0);
+    border: 2px solid black;
+
+
+}
+
+#child4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 221, 0.608);
+    border: 2px solid black;
+
+
+}
+
+#child5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(50, 225, 147);
+    border: 2px solid black;
+
+
+}
