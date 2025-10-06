@@ -1,0 +1,30 @@
+
+First things on doing project -
+
+
+
+0-project idea then tech stack which tech stack going to be used....
+
+1-project setup (Frontend,backend)
+2-create the folder structure setup backend code first and write the api calls first and test using postman all routes working fine or not then create middlewares 
+
+
+
+
+
+
+
+
+
+------------------------------------
+# Backend
+mkdir ecommerce-backend && cd ecommerce-backend
+npm init -y
+npm install express mongoose cors dotenv bcryptjs jsonwebtoken morgan
+npm install nodemon --save-dev
+
+# Frontend
+npm create vite@latest ecommerce-frontend --template react
+cd ecommerce-frontend
+npm install axios react-router-dom tailwindcss
+npx tailwindcss init -p
