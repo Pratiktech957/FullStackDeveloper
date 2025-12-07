@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+
+.card {
+
+    margin-top: 100px;
+    /* margin: 20px; */
+    background-color: rgba(227, 226, 226, 0.618);
+    color: rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 25px;
+    border: 2px solid black;
+    height: 400px;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    animation: slideRight 0.8s ease-out;
+
+}
+
+img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+    width: 250px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+p {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin: 10px;
+
+
+}
+
+#btn {
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    width: 80px;
+    height: 35px;
+    margin-left: 100px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+img:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    cursor: pointer;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translatex(-80px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}

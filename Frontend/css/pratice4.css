@@ -1,0 +1,33 @@
+
+div{
+    margin: 10px;
+    border:2px solid black ;
+    position: relative;
+    /* height:8000px ; */
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+
+.image1{
+    float: right;
+    width:200px ;
+    margin:20px ;
+}
+
+
+.image2{
+    float: left;
+}
+
+
+/* .image2{
+    top:25px ;
+    left:100px ;
+    position: absolute;
+
+} */
+
+/* .image4{
+    position: fixed;
+} */
